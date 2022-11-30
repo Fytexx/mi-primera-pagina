@@ -15,13 +15,28 @@ body{
     height: 100vh;  
 }
 
-main{
-    height: 120vh;
+
+#header{
+    height: 25vh;
 }
 
-header nav{
+#main{
+    height: 140vh;
+}
+
+#footer{
+    height: 20vh;
+}
+
+nav ul{
     flex-basis: 5em;
-    display: inline block;
+    display: flex;
+    flex: auto;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 50px;
+
 }
 footer{
     height: 10vh;
@@ -73,7 +88,7 @@ a{
     
 }
 
-.parrafo-1 {
+p {
     text-align: center;
     font-family: sans-serif;
     font-size: rem 1;
@@ -110,7 +125,7 @@ a{
     font-size: 25px;
     background-color: rgba(131, 128, 128, 0.473);
     width: 300px;
-    height: 200px;
+    height: 250px;
     margin-top: 50px;
     padding-left: 20px;
     text-align: center;
